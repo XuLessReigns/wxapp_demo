@@ -1,0 +1,38 @@
+<include src="../flight.wxml"/>
+
+<view class="content2 c-333" wx:if="{{query.state=='flightUnDelay'}}">
+    <image src="/images/no_delay.png"></image>
+    <view class="content2-txt pt20">
+        飞机准点起飞啦，
+    </view>
+    <view class="content2-txt bottom-box">
+        <view class="bottom-c">
+            下次再来[机场延误险]小程序拿红包
+        </view>
+    </view> 
+</view> 
+<view class="content2 c-333" wx:elif="{{query.state=='flightIsCancel'}}">
+    <image src="/images/no_delay1.png"></image>
+    <view class="content2-txt pt20">
+        {{'>_<'}}你乘坐的航班取消了
+    </view>
+    <view class="content2-txt">
+        不能得到红包和赔款哦
+    </view>
+    <view class="content2-txt bottom-box">
+        <view class="bottom-c">
+            下次再来[机场延误险]小程序拿红包
+        </view>
+    </view> 
+</view>
+<view wx:if="{{query.from=='history'}}" class="btn-box1">
+    <text class="fz13 c-999" selectable="{{true}}">保单号：{{query.policyNo}}</text>
+</view>
+<view class="btn-box1" wx:else>
+    <button class="footer-btn" hover-class="none" bindtap="go_home">
+        <image class="icon_homepage" src="/images/icon_homepage_nor.png"></image>
+        返回首页
+    </button>
+</view>
+
+<include src="../uicom.wxml"/>

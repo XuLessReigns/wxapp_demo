@@ -1,0 +1,21 @@
+<view wx:if="{{mod_contactus_show===true}}" class="mod-contact-us {{mod_contactus_open=='1'?'contactus-open':''}}">
+    <view class="icon-phone"  bindtap="call_phone" data-ilog="6.938.dN8">
+        <image src="/images/icon_phone.png"></image>
+    </view>
+    <button open-type="contact" hover-class="none" class="icon-wechat">
+        <image src="/images/icon_wechate.png"></image>
+    </button>
+    <view wx:if="{{mod_contactus_open==1}}" class="contactus_close" 
+        data-prop="mod_contactus_open" 
+        data-val="0" 
+        bindtap="set_data"></view>
+    <view wx:else class="icon-server">
+         <image src="/images/icon_server.png" data-val="1" 
+            data-prop="mod_contactus_open"  bindtap="set_data"></image> 
+    </view>
+</view>
+<view wx:else class="mod-contact-us">
+    <view class="icon-phone"  bindtap="call_phone" data-ilog="6.938.dN8">
+        <image src="/images/icon_phone.png"></image>
+    </view>
+</view>

@@ -1,0 +1,26 @@
+<view class="tip fz12 ui-1px-b">该航班号有多个航段，请选择</view>
+<block wx:for ="{{flightInfor}}"  wx:key="flightNo">
+    <view id="{{index}}" class="item" bindtap="selectFlight">
+        <view class="fz13 c-666 flight-name">
+            <text class="pr5">{{item.flightCompany}}</text>
+            <text>{{item.flightNo}}</text>
+        </view>
+        <view class="flight-info">
+            <icon type="success" class="check-icon" hidden="{{checkedIdx!=index}}" color="#30a9fe" size="23"/>
+            <view class="unchecked" data-checked="{{item.agree}}"  hidden="{{checkedIdx==index}}"></view>
+            <text class="left">{{item.flightDepCity}}</text>
+            <text class="right">{{item.flightArrCity}}</text>
+            <image src="/images/icon_plane_little.png" class="img-box"></image>
+        </view>
+        <view class="fz15">
+            <text>{{item._flightDeptimeplan}}</text>
+            <text class="fr arrival-time">{{item._flightArrtimeplan}}</text>
+        </view>
+    </view>
+</block>
+<view class="btn-box">    
+    <button class="com-btn-buy" hover-class="other-button-hover" disabled="{{checkedIdx==-1}}" bindtap="buy" loading="{{btnLoading}}" data-ilog="6.932.oJ8">
+        <text hidden="{{btnLoading}}">确定购买</text>
+    </button>
+</view>
+<include src="../uicom.wxml"/>

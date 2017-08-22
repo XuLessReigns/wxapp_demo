@@ -1,0 +1,104 @@
+
+<view class="faq-box">
+    <view class="faq-title">常见问题
+        <image class="icon-faq-title" src="/images/icon_faq_title.png"></image>
+    </view>
+    <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">机场延误险具体提供什么保障？</view>
+        <view class="answ">本保险产品仅包含航班延误保险保障，保障乘坐满足延误赔付条件的航班并到达目的地的被保险人，若被保险人投保的航班发生取消/备降/返航的，本公司不承担保险责任。</view>
+    </view>
+    <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">产品的承保哪些航班？</view>
+        <view class="answ">本保险产品仅限中华人民共和国(不含港澳台)境内民航定期航班（不包括春秋航空航班及九元航空航班）。</view>
+    </view>
+    <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">这个产品的赔付标准是什么？</view>
+        <view class="answ">本产品延误30分钟起赔，每30分钟赔付一次， 每次5元， 最多可以赔付6小时（12次）。</view>
+    </view>
+    <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">当天的航班还能购买吗？</view>
+        <view class="answ">可以，只要在航班计划起飞时间前40分钟均可以购买。</view>
+    </view>
+    <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">明天的飞机，可以提前购买吗？</view>
+        <view class="answ">可以，3天内的航班都可以购买机场延误险。</view>
+    </view> <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">不在机场可以购买吗？</view>
+        <view class="answ">可以，只要您有当天航班的机票均可以购买。</view>
+    </view> <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">我今天要飞往返航班，可以一起购买吗？</view>
+        <view class="answ">可以，每个航班可以购买一份机场延误险。</view>
+    </view> <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">我们是一家人出行，我能帮爸妈购买吗？</view>
+        <view class="answ">不可以，机场延误险仅限本人购买。</view>
+    </view> 
+    <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">投保成功后，马上生效吗，保障时间是多长？</view>
+        <view class="answ">本保险保障投保成功后立即生效，保障期间是1天。</view>
+    </view>
+    <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">投保成功后，保险公司如何提供保险凭证？</view>
+        <view class="answ">本保险产品为您提供电子保单，根据《中华人民共和国合同法》第十一条规定，数据电文是合法的合同的表现形式。投保成功后，您可以通过众安保险官网：www.zhongan.com 查询和下载电子保单及电子发票。
+    </view>
+    </view>
+    <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">我投保成功后，后来不想要了，能退保吗？</view>
+        <view class="answ">本保险产品，一旦投保成功，本公司不接受退保，亦不接受任何原因导致的航班信息变更及改签。</view>
+    </view>
+    <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">如果我的飞机延误了，如何获得理赔款？</view>
+        <view class="answ">如果延误达到理赔标准（超过计划起飞时间30分钟），赔款会通过微信红包的方式给到用户，用户需要进入小程序页面，点击立即领取，钱款即会到用户零钱包中。</view>
+    </view>
+    <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">如果我的飞机延误后取消了，还可以获得理赔款吗？</view>
+        <view class="answ">不可以，如果飞机延误后取消了，本保险公司本公司不承担保险责任并不退还任何费用。</view>
+    </view>
+    <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">如果我的飞机延误未满30分钟，还有赔付吗？</view>
+        <view class="answ">没有赔付。但是只要您延误1分钟，您即可以参与瓜分延误红包，红包金额随机，红包将在购买保单后第二日早上10点发放，用户需要进入小程序，点击立即领取，钱款即会到用户零钱包中。</view>
+    </view>
+    <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">延误不满30分钟的红包计算规则是什么？</view>
+        <view class="answ">
+            <view>1、红包总金额最低1000元，每1000人购买，总额再增加1000元，不设上限。</view>
+            <view>2、当天延误1分钟以上的用户，可在第二天领取现金红包。</view>
+            <view>3、每人每次瓜分金额最高100元。</view>
+    </view>
+    </view>
+    <view class="faq-list">
+        <image class="icon-faq" src="/images/icon_faq.png"></image>
+        <view class="qust">关于众安：</view>
+        <view class="answ">
+            <view>2015年6月，成立仅17个月的众安保险获得近60亿元的A轮融资，新增摩根士丹利、中金、鼎晖投资、赛富基金、凯斯博5家财务投资机构，估值达到500亿元。2015年12月，澳大利亚知名金融科技风投机构H2 Ventures联手KPMG（毕马威）发布的全球金融科技百强榜，众安保险摘得桂冠。</view>
+            <view>作为保险科技领军企业，最初，众安从解决退货纠纷的退运险起步，在电商场景中创造了众乐宝、账户安全险等一系列围绕电商生态的风险解决方案。此后，众安快速切入其他场景，搭建了健康险、航旅及商险、消费金融、车险、3C数码等核心事业部。</view>
+            <view>成立三年多来，众安保险已形成核心优势：产品设计基于场景定制，快速响应需求；定价基于互联网大数据，动态承保；销售则无缝接入场景，直面客户，交叉销售；理赔服务实现高度自动化，迅速而透明。</view>
+            <view>众安保险至今已连接300多个生态合作伙伴，为互联网经济生活提供一整套风险解决方案。截至2017年3月31日，众安保险累计服务客户数量5.82亿，保单数量超过82.91亿。</view>
+            <view>在探索场景保险的过程中，作为国内首个核心系统搭建在云上的金融机构，众安基于云服务平台，搭建开放、灵活、可扩展的核心系统，适应互联网海量、高速的业务需求。与此同时，众安不断开拓、沉淀人工智能、区块链、大数据等前沿技术，并深度应用于产品研发，提升体验、改善经营效率。通过其全资子公司众安科技，众安还致力于输出自身技术，推动保险业信息化升级，成为内外部创新的孵化器。</view>
+            <view>金融科技的未来非常广阔，我们期待更多伙伴加入众安保险，一起做有温度的保险！众安保险总部设在中国上海，不设任何分支机构，完全通过互联网进行在线承保和理赔服务。客服热线：众安保险客服热线：1010-9955或400-999-9595；众安保险官网：www.zhongan.com。</view>
+    </view>
+    </view>
+</view>
+<include src="../contactus.wxml"/>
+<view class="close">
+    <view class="ui-close border-close {{mod_contactus_open==1?'bottom-close':''}}" 
+        data-url="pages/index/index" bindtap="nav_to"></view>
+</view>
+
+<!-- <include src="../uicom.wxml"/>
+<include src="../uitab.wxml"/> -->
+

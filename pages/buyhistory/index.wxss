@@ -1,0 +1,86 @@
+
+page{
+    background: #F5F5F9;
+    padding-bottom: 108px;
+}
+
+.list{
+    padding: 15px 40rpx;
+    margin-bottom: 10px;
+    box-shadow:0 2px 4px rgba(0,0,0,0.1);
+}
+
+.white{
+    background: #fff;
+}
+
+.status-txt{
+    font-size: 15px;
+    margin-top: -2px;
+    color: #fe7235;
+}
+
+.flight-info{
+    position: relative;
+    background: #6ec5fe;
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    height:48px;
+}
+
+.flight-info .img-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 16px;
+    width: 42px;
+    margin-left: -21px;
+    margin-top: -8px;
+}
+
+.left{
+    position: absolute;
+    left: 15px;
+}
+
+.right{
+    position: absolute;
+    right: 15px;
+}
+
+.status-btn-box{
+    position: relative;
+    height: 31px;
+    line-height: 30px;
+}
+
+.status-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 31px;
+    font-size: 13px;
+    color: #ed093b;
+    background: #fff;
+}
+
+.status-btn:after{
+    border-color: #ed093b;
+}
+
+.empty{
+    font-size: 17px;
+    padding-top: 165px;
+    color: #333;
+    text-align:center;
+}
+
+.ui-logo{
+    bottom: 50px;
+}
+
+.mod-contact-us{
+    bottom:60px;
+}

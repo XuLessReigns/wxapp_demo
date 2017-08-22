@@ -1,0 +1,19 @@
+<template name="tpl_ad_index"> 
+    <swiper class="tc mt20" indicator-dots="{{indicatorDots!==false}}"
+        autoplay="true" 
+        interval="5000" 
+        current="{{current||0}}" 
+        duration="1000" 
+        circular="true" 
+        indicator-active-color="#999" 
+        indicator-color="rgba(153,153,153,0.3)">
+        <block wx:for="{{data}}">
+            <swiper-item>
+                <image class="index-ad"
+                    data-appid="{{item.appid}}" 
+                    data-path="{{item.path}}&scene={{item.scene}}"
+                    bindtap="navigateToMiniProgram"  src="/images/{{item.imgPath}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>  
+ </template>

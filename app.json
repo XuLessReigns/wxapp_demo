@@ -1,0 +1,20 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/buy/buy",
+        "pages/ticketno/index",
+        "pages/buyfail/buyfail",
+        "pages/buyhistory/index",
+        "pages/segment/segment",
+        "pages/delayaxis/index",
+        "pages/delaypool/index",
+        "pages/delayno/index",
+        "pages/faq/faq"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#31b0fe",
+        "navigationBarTextStyle": "#fff",
+        "navigationBarTitleText": "机场延误险"
+    }
+}

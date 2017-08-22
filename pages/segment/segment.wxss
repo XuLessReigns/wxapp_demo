@@ -1,0 +1,87 @@
+page{
+    background: #F5F5F9;
+}
+
+.tip{
+    position: relative;
+    padding: 15px 15px 15px 22px;
+    line-height: 20px;
+    color:#b0bcd0;
+    background-color:#f9fbfd;
+}
+.item{
+    position:relative;
+    padding: 25px 25px 20px 53px;
+    box-shadow:0px 2px 6px rgba(0,0,0,0.1);
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+.check-icon{
+    position: absolute;
+    top: 14px;
+    left:-35px;
+}
+.unchecked{
+    width:22px;
+    height:22px;
+    display:inline-block;
+    position:absolute;
+    top:14px;
+    left:-35px;
+    /*margin-top:-7px;*/
+    border-radius:12px;
+    border:1px solid #c9c9c9;
+}
+
+.flight-name{
+    padding-bottom: 4px;
+}
+
+.flight-info{
+    padding-top:12px;
+    padding-bottom:12px;
+    color: #333;
+    font-size: 18px;
+    height:42px;
+    position: relative;
+}
+
+.flight-info .left,.flight-info .right{
+    position: absolute;
+    width:240rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.left{
+    left: 0px;
+    text-align: left;
+    font-weight: bold;
+    color: #333333;
+}
+.right{
+    right: 0px;
+    text-align: right;
+    font-weight: bold;
+    color: #333333;
+
+}
+
+.flight-info .img-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 16px;
+    width: 42px;
+    margin-top: -6px;
+    margin-left:-21px;
+}
+
+.btn-box{
+    padding: 38px 90rpx 25px 90rpx;
+}
+
+.ticketno-entry{
+    padding-bottom: 0;
+}

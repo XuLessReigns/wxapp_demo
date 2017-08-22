@@ -1,0 +1,29 @@
+<view class="address-info">
+    <view class="question flight-ques" data-prop="mod_layer_show" data-val="1" bindtap="set_data"></view>
+    <image class="bg_top" src="/images/bg_top.jpg"></image>
+    <view class="fz14 flightInfo tl">
+        <text>{{orderDetail.flightCompanyName || ''}}</text>
+        <text class="ml10">{{orderDetail.flightNo || ''}}</text>
+    </view>
+    <view class="add-info">
+        <text class="left">{{orderDetail.flightDep || ''}}</text>
+        <text class="right">{{orderDetail.flightArr || ''}}</text>
+        <image src="/images/bg_plane.png" class="img-box"></image>
+    </view>
+</view>
+<view class="concern fadein" hidden="{{mod_layer_show!=='1'}}" catchtouchmove="noop">
+    <view class="concern-tip">
+    若您遇到无法领用红包的情况或对延误规则有疑问，您可以尝试联系在线客服，或拨打客户热线1010-9955或400-999-959
+    </view>
+    <view class="policy-num">
+        <view class="classname"> 保单号：{{query.policyNo}}</view>
+        <view class="copy" data-copy="{{query.policyNo}}" catchtap="tap_copy" >复制</view>
+    </view>
+    <include src="contactus.wxml"/>
+    <view class="close">
+        <view class="ui-close border-close {{mod_contactus_open==1?'bottom-close':''}}" 
+            data-prop="mod_layer_show" 
+            data-val="0" 
+            bindtap="set_data"></view>
+    </view>
+</view>
